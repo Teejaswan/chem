@@ -4,5 +4,30 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#header {
+  text-align: center;
+  height: 200px;
+  background-size: cover;
+  /*background-image: url(https://img.wallpapersafari.com/desktop/800/450/80/94/z1C35F.jpg);
+*/
+  background-color: rgb(36, 50, 88);
+}
+
+a:link {
+  color: antiquewhite;
+}
+a:hover {
+  color: #2c3e50;
+}
+.h1text {
+  font-family: serif;
+  color: antiquewhite;
 }
