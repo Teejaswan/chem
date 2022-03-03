@@ -60,7 +60,7 @@ img:hover {
   justify-content: left;
 }
 
-input {
+button {
   float: right;
   background-color: hsl(231, 50%, 27%);
   border: none;
