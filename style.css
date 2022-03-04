@@ -51,13 +51,19 @@ img {
   height: auto;
   background-color: white;
   margin: 50px;
+  border-radius: 0.5em;
+  transition: box-shadow 0.3s ease;
 }
 img:hover {
-  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 10px 10px 20px 5px #888888;
 }
 .container2 {
   margin: 10px;
   justify-content: left;
+}
+
+.container2 p {
+  margin-bottom: 1em;
 }
 
 button {
@@ -70,4 +76,5 @@ button {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  border-radius: 0.5em;
 }
