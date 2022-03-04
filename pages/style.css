@@ -1,3 +1,5 @@
+@import "../style.css";
+
 *,
 *::after,
 *::before {
@@ -55,6 +57,7 @@ img {
   text-align: center;
   padding-bottom: 45px;
   border: 1px solid black;
+  border-radius: 0.5em;
 }
 table {
   padding: 20px;
@@ -63,4 +66,33 @@ table {
 th {
   background-color: rgb(4, 26, 48);
   color: aliceblue;
+}
+
+#app, .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container2 {
+  height: 0;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.container:hover + .container2, .container2:hover {
+  height: auto;
+  opacity: 1;
+}
+
+td, th {
+  padding: 1em;
+}
+
+td:hover {
+  background-color: rgba(4, 26, 48, 25%);
+}
+
+tbody {
+  border: 2px solid black;
 }
