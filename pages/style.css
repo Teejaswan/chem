@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+header {
+  text-align: center;
+  height: 300px;
+  background-color: rgb(4, 26, 48);
+}
+h1 {
+  padding: 60px;
+  font-family: "Libre Baskerville", serif;
+  color: rgb(41, 255, 237);
+}
+h1 {
+  padding: 60px;
+  font-family: "Libre Baskerville", serif;
+  color: rgb(41, 255, 237);
+}
+hr {
+  width: 75%;
+  margin: auto;
+}
+a {
+  font-size: 1em;
+  font-family: "Fredoka", sans-serif;
+  padding: 4vw;
+}
+
+a:link {
+  color: antiquewhite;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration-line: underline;
+}
+a:visited {
+  color: antiquewhite;
+  text-decoration: none;
+}
+img {
+  width: 50%;
+  height: auto;
+  margin: 50px;
+  float: left;
+}
+.container2 {
+  width: 50%;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: 50px;
+  text-align: center;
+  padding-bottom: 45px;
+  border: 1px solid black;
+}
+table {
+  padding: 20px/;
+  margin: 70px auto 20px auto;
+}
+th {
+  background-color: rgb(4, 26, 48);
+  color: aliceblue;
+}
